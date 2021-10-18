@@ -5,6 +5,7 @@ function setup(){
   cnv = createCanvas(400, 400);
   pixelDensity(1);
   slider = createSlider(100, 1000, 100, 100)
+  slider.position(0, 410);
 }
 
 // later implement stack to undo zooming
@@ -50,8 +51,6 @@ function draw(){
   }
 
   updatePixels();
-  // text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
-  // stroke(10);
 }
 
 
