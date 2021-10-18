@@ -6,6 +6,7 @@ function setup(){
   pixelDensity(1);
   slider = createSlider(100, 1000, 100, 100)
   slider.position(0, 410);
+  
 }
 
 // later implement stack to undo zooming

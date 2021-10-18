@@ -2,6 +2,7 @@ class complex{
   constructor(re,im){
     this.real = re
     this.I = im
+    
   }
   mult(other){
     var a = this.real*other.real - this.I*other.I;
